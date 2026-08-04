@@ -10,7 +10,8 @@
 >
 > 这里主要记录并发编程、分布式系统、JVM 等后端技术深度解析
 
-## 并发编程学习之路
+<details open>
+<summary>并发编程学习之路 · 25 篇</summary>
 
 **Java 内存模型**
 
@@ -68,3 +69,19 @@
 **Atomic Package**
 
 * [atomic package](concurrent/atomic%20package/atomic%20package) — LongAdder/AtomicStampedReference 无锁编程
+
+</details>
+
+<details>
+<summary>分布式系统 · 即将更新</summary>
+
+* 内容准备中...
+
+</details>
+
+<details>
+<summary>JVM 深度解析 · 即将更新</summary>
+
+* 内容准备中...
+
+</details>

@@ -564,7 +564,32 @@ h3:hover .heading-link-btn, h4:hover .heading-link-btn { opacity: 1; }
 .home-gh-link:hover { color: var(--ink); }
 .home-gh-link svg { display: block; }
 @media (max-width: 760px) {
-  .home-mug { float: none; margin: 0 auto 1.5rem; text-align: center; }
+    .home-mug { float: none; margin: 0 auto 1.5rem; text-align: center; }
+  }
+
+/* ---------- <details> 可折叠区域 ---------- */
+.markdown-section details { margin: 2em 0; }
+.markdown-section details > summary {
+  list-style: none;
+  cursor: pointer;
+  font-family: var(--body-font);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--ink);
+  line-height: 1.3;
+  margin-bottom: 0.8em;
+  user-select: none;
+}
+.markdown-section details > summary::-webkit-details-marker { display: none; }
+.markdown-section details > summary::before {
+  content: '▸ ';
+  display: inline-block;
+  width: 1.2em;
+  color: var(--ink-faint);
+  transition: transform 0.15s;
+}
+.markdown-section details[open] > summary::before {
+  content: '▾ ';
 }
 
 
