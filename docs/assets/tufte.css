@@ -550,5 +550,21 @@ h3:hover .heading-link-btn, h4:hover .heading-link-btn { opacity: 1; }
   z-index: 29;
   background: rgba(255, 255, 248, 0.8);
 }
-#toc-overlay-bg.open { display: block; }
+/* ---------- 首页 GitHub 图标 ---------- */
+.home-mug {
+  float: right;
+  margin: 0 0 1rem 2rem;
+  color: var(--ink);
+}
+.home-gh-link {
+  color: var(--ink-faint);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+.home-gh-link:hover { color: var(--ink); }
+.home-gh-link svg { display: block; }
+@media (max-width: 760px) {
+  .home-mug { float: none; margin: 0 auto 1.5rem; text-align: center; }
+}
+
 
