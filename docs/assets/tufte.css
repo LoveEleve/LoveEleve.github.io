@@ -462,6 +462,7 @@ h3:hover .heading-link-btn, h4:hover .heading-link-btn { opacity: 1; }
   float: right;
   margin: 0 0 1rem 2rem;
   text-align: center;
+  position: relative;
 }
 .home-mug svg { display: block; margin: 0 auto; }
 .home-mug sub {
@@ -561,6 +562,7 @@ h3:hover .heading-link-btn, h4:hover .heading-link-btn { opacity: 1; }
   float: right;
   margin: 0 0 1rem 2rem;
   text-align: center;
+  position: relative;
 }
 .home-mug svg { display: block; margin: 0 auto; }
 .home-mug sub {
@@ -572,11 +574,16 @@ h3:hover .heading-link-btn, h4:hover .heading-link-btn { opacity: 1; }
 }
 
 .home-gh-link {
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: var(--ink-faint);
+  opacity: 0.4;
   text-decoration: none;
-  transition: color 0.15s;
+  transition: opacity 0.15s, color 0.15s;
 }
-.home-gh-link:hover { color: var(--ink); }
+.home-gh-link:hover { opacity: 1; color: var(--ink); }
 .home-gh-link svg { display: block; }
 @media (max-width: 760px) {
     .home-mug { float: none; margin: 0 auto 1.5rem; text-align: center; }
