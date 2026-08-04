@@ -72,16 +72,4 @@
 
 </details>
 
-<details>
-<summary>分布式系统 · 即将更新</summary>
 
-* 内容准备中...
-
-</details>
-
-<details>
-<summary>JVM 深度解析 · 即将更新</summary>
-
-* 内容准备中...
-
-</details>
